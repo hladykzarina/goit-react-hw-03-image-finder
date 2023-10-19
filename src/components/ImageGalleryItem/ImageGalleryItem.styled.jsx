@@ -8,17 +8,17 @@ export const GalleryItem = styled.li`
 
   padding: 12px;
 
-  border-radius: 25px;
+  border-radius: 18px;
 
-  background: #30444e;
-  border: 1px solid #30444e;
+  background: #399afb;
+  border: 1px solid #79b9f9;
 
   transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :hover,
   :focus {
-    box-shadow: 0px 1px 14px #19282f;
+    box-shadow: 0px 1px 14px #399afb;
     border: 1px solid #f9f9f9;
   }
 `;
